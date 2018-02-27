@@ -1,0 +1,77 @@
+[
+    {
+        "Name": "Game Engine Techniques",
+        "CPA": "GAM532",
+        "BSD": "DPS932"
+    },
+    {
+        "Name": "Data Structures And Algorithms In C++",
+        "CPA": "DSA555",
+        "BSD": ""
+    },
+    {
+        "Name": "Windows Programming Using C#",
+        "CPA": "",
+        "BSD": "DPS910"
+    },
+    {
+        "Name": "Database Administration",
+        "CPA": "DBA625",
+        "BSD": ""
+    },
+    {
+        "Name": "Database Connectivity Using Java",
+        "CPA": "DBA625",
+        "BSD": ""
+    },
+    {
+        "Name": "Data Structures And Algorithms in C++",
+        "CPA": "DSA555",
+        "BSD": ""
+    },
+    {
+        "Name": "Game Engine Techniques",
+        "CPA": "GAM532",
+        "BSD": "DPS932"
+    },
+    {
+        "Name": "Game Content Creation",
+        "CPA": "GAM536",
+        "BSD": "DPS936"
+    },
+    {
+        "Name": "Parallel Algorithms and Programming Techniques",
+        "CPA": "GPU621",
+        "BSD": "DPS921"
+    },
+    {
+        "Name": "Mobile Application Development - iOS",
+        "CPA": "MAP523",
+        "BSD": "DPS923"
+    },
+    {
+        "Name": "Mobile Application Development - Android",
+        "CPA": "MAP524",
+        "BSD": "DPS924"
+    },
+    {
+        "Name": "Open Source Development Project",
+        "CPA": "OSD700",
+        "BSD": "DPS911"
+    },
+    {
+        "Name": "Software Portability and Optimization",
+        "CPA": "SPO600",
+        "BSD": ""
+    },
+    {
+        "Name": "Unix Bash Shell Scripting",
+        "CPA": "UNX510",
+        "BSD": "DPS912"
+    },
+    {
+        "Name": "Penetration Testing and Software Security Assessment",
+        "CPA": "DPI902",
+        "BSD": ""
+    }
+]

@@ -1,0 +1,29 @@
+============ IMPORTANT  ============
+All file locations are relative to 'bin' as the compiled executable is run from 'bin' directory.
+
+============ READ FROM JSON-like FILES ============
+empty: ../data/0[012]-empty_*.json
+  testing empty files...OK!
+
+cartoons: ../data/0[345]*_cartoon_*.json
+  testing with one cartoon in JSON-like and output delimited by ','...OK!
+  testing with many cartoon in JSON-like and output format delimited with ':'...OK!
+
+courses: ../data/0[67]*_courses_*.json
+  testing with many course items in JSON-like and output format delimited with ';'...OK!
+
+============ WRITE TO JSON-like FILES ============
+filter from ../data/0*_*.json and write to ../data/got_*.json
+  testing no dogs, named Spike, were written from 05-array_with_few_cartoon_objects.json...OK!
+
+  testing 14 CPA and 9 BSD were read from 07-array_with_many_course_objects.json...OK!
+  testing 6 CPA-only and 1 BSD-only were read from 07-array_with_many_course_objects.json...OK!
+
+============ VERIFY SAVED FILES ARE JSON-like ============
+comparing ../data/got_*.json with ../data/expected_*.json
+  testing if got_array_with_no_cartoon_object.json written by you was valid...OK!
+  testing if got_array_with_one_bsd_object.json written by you was valid...OK!
+  testing if got_array_with_many_cpa_objects.json written by you was valid...OK!
+
+CONGRATULATIONS! You passed all tests.
+You may now hand-in your project according to your professor's instructions.

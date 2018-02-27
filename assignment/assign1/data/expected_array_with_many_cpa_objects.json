@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Data Structures And Algorithms In C++",
+        "CPA": "DSA555",
+        "BSD": ""
+    },
+    {
+        "Name": "Database Administration",
+        "CPA": "DBA625",
+        "BSD": ""
+    },
+    {
+        "Name": "Database Connectivity Using Java",
+        "CPA": "DBA625",
+        "BSD": ""
+    },
+    {
+        "Name": "Data Structures And Algorithms in C++",
+        "CPA": "DSA555",
+        "BSD": ""
+    },
+    {
+        "Name": "Software Portability and Optimization",
+        "CPA": "SPO600",
+        "BSD": ""
+    },
+    {
+        "Name": "Penetration Testing and Software Security Assessment",
+        "CPA": "DPI902",
+        "BSD": ""
+    }
+]

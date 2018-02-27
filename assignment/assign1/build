@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+#--
+# EXE_NAME is name of executable, ARGV holds command line arguments to program
+EXE_NAME=project
+ARGV=''
+
+## ------ USUALLY NO CHANGES NEEDED BELOW THIS LINE
+WELCOME='== OOP345/BTP305 Simple Build Tool for Unix/Linux =='
+
+touch mk/Makefile.nix
+if [[ "$1" == "help" || "$1" == "--help" || "$1" == "/?" || "$1" == "-h" || "$1" == "-help" ]];
+then
+  echo "$WELCOME"
+  echo Your options are:
+  echo "  build: to build target"
+  echo "  build clean: to remove target and bin directory (if empty)"
+  exit 0
+fi
+
+if [ "$1" == "clean" ];
+then
+  make -f mk/Makefile.nix A="$EXE_NAME" $1
+  exit 0
+fi
+
+if [ ! -d src ]; 
+then
+  echo "$WELCOME"
+  echo "src: No such directory" 1>&2
+  exit 1
+fi
+
+file src/*|grep -Ee "(source|C++)" > /dev/null
+if [ $? -ne 0 ];
+then
+  echo "$WELCOME"
+  echo -e "src has no source files. Copy, or create, some source files there." 1>&2
+  exit 1
+fi
+
+make -f mk/Makefile.nix A="$EXE_NAME" ARGV="$ARGV" $@ 
